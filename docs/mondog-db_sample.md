@@ -1,10 +1,10 @@
 ## MongoDBの用意
 [MongoDB Atlas](https://www.mongodb.com/ja-jp/atlas/database)からMongoDBを接続できるようにする。
+ ※ ユーザー名、パスワードをどこかにメモっておくこと
 
 「Try Free」をクリックし、参考URLから設定を進める。
 ユーザー登録、ネットワークを登録し、以下のコマンドで、DBにログインできるようにする。
 
-※ ユーザー名、パスワードをどこかにメモっておくこと
 
 - (参考)
 [MongoDB Atlasで無料かつ手軽にDB環境を利用してみる](https://qiita.com/n0bisuke/items/4d4a4599ee7ce9cf4fd9)
