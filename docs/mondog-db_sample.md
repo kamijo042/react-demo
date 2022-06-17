@@ -44,28 +44,28 @@ find `db.user.find()` で、ドキュメントが登録されているか、確�
 [
   {
     _id: ObjectId("62acfde77a7da86870e0ac99"),
-    name: 'mr.a',
-    age: 10,
+    name: 'mr.sample01',
+    age: 15,
     gender: 'm',
     hobbies: [ 'programming' ]
   },
   {
     _id: ObjectId("62acfded7a7da86870e0ac9a"),
-    name: 'mr.b',
+    name: 'mr.sample02',
     age: 20,
     gender: 'm',
     hobbies: [ 'vi' ]
   },
   {
     _id: ObjectId("62acfdf27a7da86870e0ac9b"),
-    name: 'ms.c',
-    age: 30,
+    name: 'ms.sample03',
+    age: 35,
     gender: 'f',
     hobbies: [ 'programming', 'vi' ]
   },
   {
     _id: ObjectId("62acfdf77a7da86870e0ac9c"),
-    name: 'ms.d',
+    name: 'ms.sample04',
     age: 40,
     gender: 'f',
     hobbies: [ 'cooking' ]
