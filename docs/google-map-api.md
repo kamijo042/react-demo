@@ -17,13 +17,13 @@ $ yarn add @react-google-maps/api@2.12.0
 
 ```jsunicoderegexp
 import React from 'react';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 ```
 
 メインのhtmlを出力します。
 
 ```jsunicoderegexp
-const Map = () => {
+const GoogleMapApi = () => {
     const mapStyles = {
         height: "80vh",
         width: "80%"
@@ -46,5 +46,6 @@ const Map = () => {
         </LoadScript>
     )
 }
+export default GoogleMapApi;
 
 ```
