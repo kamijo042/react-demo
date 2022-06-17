@@ -14,7 +14,7 @@ class GoogleMapApi extends Component {
             zoom: 15,
             isShowMarker: false
         }
-        this.key = {GOOGLE-MAP-API-KEY};
+        this.key = 'AIzaSyBvJcef4p00vXEzUYQI-qsr9RHU2ztkAmE';
     }
     location = {
         '加賀': {
